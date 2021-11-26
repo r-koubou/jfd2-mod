@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menubar>
+	<menuitem label="exit" command="close">
+		<key name="VK_ESCAPE"/>
+	</menuitem>
+	<menuitem label="edit" command="edit">
+		<key name="VK_ENTER" shift="true"/>
+	</menuitem>
+	<separator/>
+	<menuitem label="search" command="show_dialog">
+		<key name="VK_SLASH"/>
+	</menuitem>
+	<menuitem label="select-all" command="select-all">
+		<key name="VK_A" ctrl="true"/>
+	</menuitem>
+	<menuitem label="copy" command="copy">
+		<key name="VK_C" ctrl="true"/>
+	</menuitem>
+	<separator/>
+	<menuitem label="next_encode" command="next_encode">
+		<key name="VK_L"/>
+	</menuitem>
+	<menuitem label="html_mode" command="html_mode">
+		<key name="VK_H"/>
+	</menuitem>
+</menubar>

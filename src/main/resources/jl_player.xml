@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<fileviewer 
+	factory="com.nullfish.app.jfd2.viewer.DefaultFileViewerFactory"
+	class="com.nullfish.app.jfd2.viewer.jlayer.JLayerViewer"
+	unit="each_jfd" position="bg">
+	<extension>
+		<list>
+			<text>mp3</text>
+			<text>m3u</text>
+			<text>pls</text>
+		</list>
+	</extension>
+</fileviewer>

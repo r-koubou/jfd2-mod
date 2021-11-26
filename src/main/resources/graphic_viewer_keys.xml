@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+
+<commandmaps>
+	<commandmap name="cursor-up">
+		<key name="VK_UP"/>
+	</commandmap>
+	<commandmap name="cursor-down">
+		<key name="VK_DOWN"/>
+	</commandmap>
+	<commandmap name="cursor-right">
+		<key name="VK_RIGHT"/>
+	</commandmap>
+	<commandmap name="cursor-left">
+		<key name="VK_LEFT"/>
+	</commandmap>
+	<commandmap name="cursor-top">
+		<key name="VK_F11"/>
+	</commandmap>
+	<commandmap name="cursor-end">
+		<key name="VK_F12"/>
+	</commandmap>
+	<commandmap name="cursor-next-page">
+		<key name="VK_PAGE_DOWN"/>
+	</commandmap>
+	<commandmap name="cursor-prev-page">
+		<key name="VK_PAGE_UP"/>
+	</commandmap>
+	<commandmap name="go-parent">
+		<key name="VK_BACK_SPACE"/>
+	</commandmap>
+	<commandmap name="go-root">
+		<key name="VK_BACK_SLASH"/>
+	</commandmap>
+	<commandmap name="open">
+		<key name="VK_ENTER"/>
+	</commandmap>
+	<commandmap name="mark">
+		<key name="VK_SPACE"/>
+	</commandmap>
+	<commandmap name="mark-all">
+		<key name="VK_HOME"/>
+	</commandmap>
+	<commandmap name="mark-reverse">
+		<key name="VK_END"/>
+	</commandmap>
+	<commandmap name="viewer_close">
+		<key name="VK_ESCAPE"/>
+	</commandmap>
+	<commandmap name="viewer_open_close">
+		<key name="VK_ENTER"/>
+	</commandmap>
+</commandmaps>

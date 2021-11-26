@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+	<tr>
+		<td vfix="true" fill="both">
+			<table>
+				<tr>
+					<td hfix="true">title_label</td><td fill="horizontal">title_input</td><td hfix="true">execute_button</td><td hfix="true">delete_button</td>
+				</tr>
+				<tr>
+					<td fill="both" border="lowered" colspan="4" cellpadding="3">
+						<table>
+							<tr>
+								<td colspan="2" fill="both">
+									<table>
+										<tr>
+											<td hfix="true" vfix="true">command_radio</td><td vfix="true" fill="horizontal" align="right">use_shell_check</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+							<tr>
+								<td hfix="true">command_label</td><td fill="horizontal">command_input</td><td hfix="true">command_refer_button</td>
+							</tr>
+							<tr>
+								<td hfix="true">work_dir_label</td><td fill="horizontal">work_dir_input</td><td hfix="true">work_dir_refer_button</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td fill="both" border="lowered" colspan="4" cellpadding="3">
+						<table>
+							<tr>
+								<td colspan="2">script_radio</td>
+							</tr>
+							<tr>
+								<td hfix="true">script_label</td><td fill="horizontal">script_input</td><td hfix="true">script_refer_button</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td fill="both" cellpadding="3">table</td>
+	</tr>
+	<tr>
+		<td vfix="true" fill="both">instruction</td>
+	</tr>
+	<tr>
+		<td fill="horizontal" border="lowered" vfix="true">
+			<table>
+				<tr>
+					<td/><td hfix="true">ok_button</td><td hfix="true">cancel_button</td><td/>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>

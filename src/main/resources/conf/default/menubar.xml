@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menubar version="20101226">
+	<menu label="file" mnemonic="f">
+		<menu label="manipulation">
+			<menuitem label="create_file" command="create_file">
+				<key name="VK_N"/>
+			</menuitem>
+			<menuitem label="create_directory" command="create_directory">
+				<key name="VK_K"/>
+			</menuitem>
+			<menuitem label="edit" command="edit">
+				<key name="VK_E"/>
+				<key name="VK_ENTER" shift="true"/>
+			</menuitem>
+			<separator/>
+				<menuitem label="register_smart_filelist" command="register_smart_filelist">
+					<key name="VK_S" shift="true"/>
+				</menuitem>
+				<menuitem label="register_filelist" command="register_filelist">
+					<key name="VK_V" shift="true"/>
+				</menuitem>
+			<separator/>
+			<menuitem label="delete_file" command="delete_file">
+				<key name="VK_D"/>
+			</menuitem>
+			<menuitem label="delete_directory" command="delete_directory">
+				<key name="VK_D" shift="true"/>
+			</menuitem>
+			<separator/>
+
+			<menuitem label="rename" command="rename">
+				<key name="VK_R"/>
+			</menuitem>
+			<menuitem label="copy" command="copy">
+				<key name="VK_C"/>
+			</menuitem>
+			<menuitem label="move" command="move">
+				<key name="VK_M"/>
+			</menuitem>
+			
+			<separator/>
+			<menuitem label="attribute" command="attribute">
+				<key name="VK_A"/>
+			</menuitem>
+		</menu>
+
+		<menuitem label="open_new_tab" command="new_tab">
+			<key name="VK_N" ctrl="true"/>
+		</menuitem>
+		<menuitem label="open_sub_tab" command="new_sub_tab">
+			<key name="VK_M" ctrl="true"/>
+		</menuitem>
+		<menuitem label="new_window" command="new_window">
+			<key name="VK_N" ctrl="true" shift="true"/>
+		</menuitem>
+		<separator/>
+		<menuitem label="next_tab" command="next_tab">
+			<key name="VK_0"/>
+		</menuitem>
+		<menuitem label="prev_tab" command="prev_tab">
+			<key name="VK_9"/>
+		</menuitem>
+		<menuitem label="focus_opponent" command="focus_opponent">
+			<key name="VK_8"/>
+		</menuitem>
+		<menuitem label="next_frame" command="next_frame">
+			<key name="VK_7"/>
+		</menuitem>
+		<menuitem label="swap_position" command="swap_position">
+			<key name="VK_DOWN" alt="true"/>
+		</menuitem>
+		<menuitem label="change_split" command="change_split">
+			<key name="VK_UP" alt="true"/>
+		</menuitem>
+		<separator/>
+
+		<menuitem label="exit" command="exit">
+		</menuitem>
+		<menuitem label="exit_all" command="exit_all">
+		</menuitem>
+	</menu>
+	<menu label="edit">
+		<menuitem label="mark_this_file" command="mark">
+			<key name="VK_SPACE"/>
+		</menuitem>
+		<menuitem label="mark-all" command="mark-all">
+			<key name="VK_HOME"/>
+		</menuitem>
+		<menuitem label="mark-reverse" command="mark-reverse">
+			<key name="VK_END"/>
+		</menuitem>
+		<separator/>
+		<menuitem label="find" command="find">
+			<key name="VK_F"/>
+		</menuitem>
+		<menuitem label="find_tag" command="find_tag">
+			<key name="VK_F" shift="true"/>
+		</menuitem>
+		<menuitem label="grep" command="grep">
+			<key name="VK_G"/>
+		</menuitem>
+		<menuitem label="incremental_search" command="incremental_search">
+			<key name="VK_AT" onrelease="true"/>
+		</menuitem>
+		<menuitem label="copy_current_dir" command="copy_current_dir">
+			<key name="VK_L" ctrl="true"/>
+		</menuitem>
+	</menu>
+	<menu label="view">
+		<menuitem label="sort" command="sort">
+			<key name="VK_S"/>
+		</menuitem>
+		<menu label="sort">
+			<menuitem label="sort_name" command="sort_name">
+				<key name="VK_1" ctrl="true"/>
+			</menuitem>
+			<menuitem label="sort_extension" command="sort_extension">
+				<key name="VK_2" ctrl="true"/>
+			</menuitem>
+			<menuitem label="sort_size" command="sort_size">
+				<key name="VK_3" ctrl="true"/>
+			</menuitem>
+			<menuitem label="sort_date" command="sort_date">
+				<key name="VK_4" ctrl="true"/>
+			</menuitem>
+			<separator/>
+			<menuitem label="sort_reverse" command="sort_reverse">
+				<key name="VK_5" ctrl="true"/>
+			</menuitem>
+		</menu>
+		<menuitem label="refresh" command="refresh">
+			<key name="VK_R" shift="true"/>
+		</menuitem>
+		<menu label="columns">
+			<menuitem text="1" command="column-1"/>
+			<menuitem text="2" command="column-2"/>
+			<menuitem text="3" command="column-3"/>
+			<menuitem text="4" command="column-4"/>
+			<menuitem text="5" command="column-5"/>
+			<menuitem text="6" command="column-6"/>
+			<menuitem text="7" command="column-7"/>
+			<menuitem text="8" command="column-8"/>
+			<menuitem text="9" command="column-9"/>
+		</menu>
+		<separator/>
+		<menuitem label="change_thumbnail_mode" command="change_thumbnail_mode">
+			<key name="VK_PERIOD"/>
+		</menuitem>
+		<menuitem label="change_dot_file_visible" command="change_dot_file_visible">
+			<key shift="true" name="VK_PERIOD"/>
+		</menuitem>
+		<menuitem label="change_relative_mode" command="change_relative_mode">
+			<key name="VK_BACK_SLASH" shift="true"/>
+		</menuitem>
+		<separator/>
+		<menuitem label="tree" command="tree">
+			<key name="VK_T"/>
+		</menuitem>
+	</menu>
+	<menu label="execute_menu">
+		<menuitem label="execute" command="execute">
+			<key name="VK_X"/>
+		</menuitem>
+		<menuitem label="remote_execute" command="remote_execute">
+			<key name="VK_X" shift="true"/>
+		</menuitem>
+		<menuitem label="shell" command="shell">
+			<key name="VK_H"/>
+		</menuitem>
+		<menuitem label="extension_map" command="extension_map">
+			<key name="VK_Z"/>
+		</menuitem>
+	</menu>
+	<menu label="move">
+		<menuitem label="go-parent" command="go-parent">
+			<key name="VK_BACK_SPACE"/>
+		</menuitem>
+		<menuitem label="go-root" command="go-root">
+			<key name="VK_SLASH"/>
+		</menuitem>
+		<separator/>
+		<menuitem label="logical_disk" command="logical_disk">
+			<key name="VK_L"/>
+		</menuitem>
+		<menuitem label="next_history" command="next_history">
+			<key name="VK_RIGHT" alt="true"/>
+		</menuitem>
+		<menuitem label="prev_history" command="prev_history">
+			<key name="VK_LEFT" alt="true"/>
+		</menuitem>
+		<separator/>
+		<menuitem label="this2target" command="this2target">
+			<key name="VK_Y"/>
+		</menuitem>
+		<menuitem label="target2this" command="target2this">
+			<key name="VK_Y" shift="true"/>
+		</menuitem>
+		<separator/>
+		<menuitem label="shortcut" command="shortcut">
+			<key name="VK_Q"/>
+		</menuitem>
+		<menuitem label="register-shortcut" command="register-shortcut">
+			<key name="VK_Q" shift="true"/>
+		</menuitem>
+	</menu>
+	<menu label="script">
+		<menuitem label="select_groovy" command="select_groovy">
+			<key name="VK_O"/>
+		</menuitem>
+		<menuitem label="edit_groovy" command="edit_groovy">
+			<key name="VK_O" shift="true"/>
+		</menuitem>
+	</menu>
+	<menu label="option">
+		<menuitem label="option" command="option">
+		</menuitem>
+		<menuitem label="ext_command_option" command="ext_command_option">
+		</menuitem>
+		<separator/>
+		<menuitem label="go_plugin_dir" command="go_plugin_dir">
+		</menuitem>
+		<menuitem label="go_script_dir" command="go_script_dir">
+		</menuitem>
+		<menuitem label="go_lib_dir" command="go_lib_dir">
+		</menuitem>
+		<menuitem label="clean_tag_db" command="clean_tag_db">
+		</menuitem>
+	</menu>
+</menubar>

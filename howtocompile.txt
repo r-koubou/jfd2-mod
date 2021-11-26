@@ -1,0 +1,15 @@
+How to build jFD2
+1,Install Maven2 and configure path.
+2,Execute installjar.bat in trunk/lib.
+3,Check out source code of FileFish.
+	http://code.google.com/p/filefish-vfs/source/checkout
+4,Type "mvn install" in "trunk" direcotry of FileFish.
+5,Type "mvn assembly:assembly" in "trunk" directory of jFD2.
+
+jFD2のコンパイル方法
+１，Maven2をインストールしてください。
+２，trunk/libのinstalljar.batを実行してください。
+３，FileFishのソースをチェックアウトしてください。
+	http://code.google.com/p/filefish-vfs/source/checkout
+４，FileFishの"trunk"で"mvn install"を実行してください。
+５，jFD2の"trunk"で "mvn assembly:assembly"を実行してください。

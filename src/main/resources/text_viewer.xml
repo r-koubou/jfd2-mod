@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<fileviewer 
+	factory="com.nullfish.app.jfd2.viewer.DefaultFileViewerFactory"
+	class="com.nullfish.app.jfd2.viewer.text_viewer.TextFileViewer"
+	constraints="same" unit="each_jfd" position="forward">
+	<param name="encoding">
+		<list>
+			<text>Shift_JIS</text>
+			<text>EUC-JP</text>
+			<text>JISAutoDetect</text>
+			<text>UTF-8</text>
+		</list>
+	</param>
+</fileviewer>

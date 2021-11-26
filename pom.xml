@@ -1,0 +1,104 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>nullfish</groupId>
+  <artifactId>jfd2</artifactId>
+  <packaging>jar</packaging>
+  <version>1.01</version>
+  <name>jfd2</name>
+  <url>http://maven.apache.org</url>
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>nullfish</groupId>
+      <artifactId>filefish</artifactId>
+      <version>20100301</version>
+    </dependency>
+
+    <dependency>
+      <groupId>nullfish</groupId>
+      <artifactId>html-table-panel</artifactId>
+      <version>1.1</version>
+    </dependency>
+
+    <dependency>
+        <groupId>org.codehaus.groovy</groupId>
+        <artifactId>groovy</artifactId>
+        <version>1.6-RC-2</version>
+    </dependency>
+
+    <dependency>
+        <groupId>javazoom</groupId>
+        <artifactId>jlayer</artifactId>
+        <version>1.0</version>
+    </dependency>
+
+    <dependency>
+        <groupId>l2fprod</groupId>
+        <artifactId>fontchooser</artifactId>
+        <version>1.0</version>
+    </dependency>
+
+    <dependency>
+        <groupId>monazilla</groupId>
+        <artifactId>jmigemo</artifactId>
+        <version>0.1</version>
+    </dependency>
+
+    <dependency>
+        <groupId>oro</groupId>
+        <artifactId>oro</artifactId>
+        <version>2.0.8</version>
+    </dependency>
+
+    <dependency>
+        <groupId>mozilla</groupId>
+        <artifactId>juniversalchardet</artifactId>
+        <version>1.0.2</version>
+    </dependency>
+
+    <dependency>
+      <groupId>mac-dummy</groupId>
+      <artifactId>mac-dummy</artifactId>
+      <version>1.0</version>
+      <scope>provided</scope>
+    </dependency>
+
+  </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <configuration>
+          <source>1.4</source>
+          <target>1.4</target>
+          <encoding>UTF-8</encoding>
+          <charset>UTF-8</charset>
+          <docencoding>UTF-8</docencoding>
+        </configuration>
+      </plugin>
+
+      <plugin>
+        <artifactId>maven-assembly-plugin</artifactId>
+        <configuration>
+          <descriptorRefs>
+            <descriptorRef>jar-with-dependencies</descriptorRef>
+          </descriptorRefs>
+          <archive>
+            <manifest>
+              <mainClass>com.nullfish.app.jfd2.Launcher</mainClass>
+            </manifest>
+          </archive>
+        </configuration>
+      </plugin>
+  </plugins>
+  </build>
+</project>

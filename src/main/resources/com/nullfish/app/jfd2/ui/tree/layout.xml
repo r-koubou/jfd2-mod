@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table cellpadding="5">
+	<tr>
+		<td colspan="2" fill="horizontal" border="lowered" vfilx="true" hfix="false" prefwidth="450">pathLabel</td>
+	</tr>
+	<tr>
+		<td fill="both" vfix="false" prefwidth="400">tree</td><td fill="both" vfix="false" hfix="true" prefwidth="150">fileListScrollPane</td>
+	</tr>
+	<tr>
+		<td vfilx="true" colspan="2">
+			<table>
+				<tr>
+					<td vfilx="true"></td><td vfilx="true" hfix="true">okButton</td><td vfilx="true" hfix="true">cancelButton</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table cellpadding="10">
+	<tr>
+		<td vfix="true" border="titled" title="FTP">
+			<table>
+				<tr>
+					<td vfix="true">
+						<table>
+							<tr>
+								<td vfix="true" hfix="true" fill="none" valign="top">transfer_mode_chooser</td>
+							</tr>
+							<tr>
+								<td vfix="true" hfix="true">ascii_extension</td>
+							</tr>
+							<tr>
+								<td fill="both">ascii_extension_input</td>
+							</tr>
+							<tr>
+								<td vfix="true">passive_check</td>
+							</tr>
+							<tr>
+								<td vfix="true" >
+									<table>
+										<tr>
+											<td vfix="true">ftp_proxy_label</td>
+										</tr>
+										<tr>
+											<td vfix="true">use_ftp_proxy_check</td>
+										</tr>
+										<tr>
+											<td fill="horizontal" vfix="true">proxy_host_label</td><td vfix="true" hfix="true">proxy_port_label</td>
+										</tr>
+										<tr>
+											<td fill="horizontal" vfix="true">proxy_host_input</td><td vfix="true" hfix="true" fill="horizontal" >proxy_port_input</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+							<tr>
+								<td vfix="true">ftp_encoding_label</td>
+							</tr>
+							<tr>
+								<td vfix="true" fill="horizontal">ftp_encoding_text</td>
+							</tr>
+							<tr>
+								<td vfix="true">ftp_filesystem_encoding_label</td>
+							</tr>
+							<tr>
+								<td vfix="true" fill="horizontal">ftp_filesystem_encoding_text</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+		<td>
+			<table>
+				<tr>
+					<td border="titled" title="HTTP" vfix="true" >
+						<table>
+							<tr>
+								<td vfix="true">http_proxy_label</td>
+							</tr>
+							<tr>
+								<td vfix="true">use_http_proxy_check</td>
+							</tr>
+							<tr>
+								<td fill="horizontal" vfix="true">http_proxy_host_label</td><td vfix="true" hfix="true">http_proxy_port_label</td>
+							</tr>
+							<tr>
+								<td fill="horizontal" vfix="true">http_proxy_host_input</td><td vfix="true" hfix="true" fill="horizontal" >http_proxy_port_input</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td border="titled" title="ZIP" vfix="true" >
+						<table>
+							<tr>
+								<td vfix="true" hfix="true">zip_encoding_label</td>
+							</tr>
+							<tr>
+								<td vfix="true" fill="horizontal">zip_encoding_input</td>
+							</tr>
+							<tr>
+								<td vfix="true" hfix="true">zip_pack_encoding_label</td>
+							</tr>
+							<tr>
+								<td vfix="true" fill="horizontal">zip_pack_encoding_input</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td/>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td/>
+	</tr>
+</table>

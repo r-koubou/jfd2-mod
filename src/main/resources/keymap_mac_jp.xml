@@ -1,0 +1,28 @@
+<?xml version=	"1.0"?>
+
+<mappings>
+	<mapping>
+		<key name="VK_EQUALS" />
+		<key name="VK_CIRCUMFLEX" />
+	</mapping>
+	<mapping>
+		<key name="VK_OPEN_BRACKET" />
+		<key name="VK_AT" />
+	</mapping>
+	<mapping>
+		<key name="VK_CLOSE_BRACKET" />
+		<key name="VK_OPEN_BRACKET" />
+	</mapping>
+	<mapping>
+		<key name="VK_QUOTE" />
+		<key name="VK_COLON" />
+	</mapping>
+	<mapping>
+		<key name="VK_BACK_SLASH" />
+		<key name="VK_CLOSE_BRACKET" />
+	</mapping>
+	<mapping>
+		<key name="VK_UNDERSCORE" />
+		<key name="VK_BACK_SLASH" />
+	</mapping>
+</mappings>

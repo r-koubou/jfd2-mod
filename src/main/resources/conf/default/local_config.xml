@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+  <param name="columns">
+    <int>2</int>
+  </param>
+  <param name="sort-condition">
+    <text>extension</text>
+  </param>
+  <param name="sort-order">
+    <text>ascend</text>
+  </param>
+  <param name="sort_attribute">
+    <boolean>false</boolean>
+  </param>
+  <param name="sort_file_directory_distinction">
+    <boolean>false</boolean>
+  </param>
+  <param name="sorts_number">
+    <boolean>true</boolean>
+  </param>
+  <param name="renderer_mode">
+    <renderer_mode>3</renderer_mode>
+  </param>
+  <param name="find_search_directory">
+    <boolean>false</boolean>
+  </param>
+  <param name="find_search_except">
+    <boolean>false</boolean>
+  </param>
+  <param name="find_case_sensitive">
+    <boolean>true</boolean>
+  </param>
+  <param name="find_use_regex">
+    <boolean>false</boolean>
+  </param>
+  <param name="find_sub_directory">
+    <boolean>false</boolean>
+  </param>
+  <param name="use shell">
+    <boolean>true</boolean>
+  </param>
+  <param name="grep_case_sensitive">
+    <boolean>false</boolean>
+  </param>
+  <param name="grep_use_regex">
+    <boolean>false</boolean>
+  </param>
+</config>
+

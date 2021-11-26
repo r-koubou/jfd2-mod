@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+	<tr>
+		<td hfix="false" vfix="false" fill="both">tab</td>
+	</tr>
+	<tr>
+		<td vfix="true" hfix="false" fill="both">
+			<table>
+				<tr>
+					<td fill="both"/><td hfix="true" cellpadding="3">ok_button</td><td hfix="true" cellpadding="3">cancel_button</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>

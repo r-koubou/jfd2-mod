@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table cellpadding="10">
+	<tr>
+		<td>
+			<table>
+				<tr>
+					<td vfix="true">editor</td>
+				</tr>
+				<tr>
+					<td vfix="true">editor_use_shell</td>
+				</tr>
+				<tr><td vfix="true">path_notice</td></tr>
+				<tr>
+					<td vfix="true">script_dir</td>
+				</tr>
+				<tr>
+					<td vfix="true">shortcut_dir</td>
+				</tr>
+				<tr>
+					<td vfix="true">plugin_dir</td>
+				</tr>
+				<tr>
+					<td vfix="true">temp_dir</td>
+				</tr>
+				<tr>
+					<td vfix="true">user_conf_dir</td>
+				</tr>
+				<tr>
+					<td vfix="true">lib_dir</td>
+				</tr>
+				<tr>
+					<td/>
+				</tr>
+			</table>
+		</td>
+		<td>
+			<table>
+				<tr>
+					<td vfix="true">extension_mapper_label</td>
+				</tr>
+				<tr>
+					<td vfix="true">extension_mapper_input</td>
+				</tr>
+				<tr>
+					<td vfix="true">open_dir_label</td>
+				</tr>
+				<tr>
+					<td vfix="true">open_dir_input</td>
+				</tr>
+				<tr>
+					<td vfix="true">shell_label</td>
+				</tr>
+				<tr>
+					<td vfix="true">shell_input</td>
+				</tr>
+				<tr>
+					<td vfix="true">shell_notice</td>
+				</tr>
+				<tr>
+					<td vfix="true" cellpadding="5">@ </td>
+				</tr>
+				<tr>
+					<td vfix="true">app_shell_label</td>
+				</tr>
+				<tr>
+					<td vfix="true">app_shell_input</td>
+				</tr>
+				<tr>
+					<td vfix="true">appshell_notice</td>
+				</tr>
+				<tr>
+					<td vfix="true" cellpadding="5">@ </td>
+				</tr>
+				<tr>
+					<td vfix="true">console_label</td>
+				</tr>
+				<tr>
+					<td vfix="true">console_input</td>
+				</tr>
+				<tr>
+					<td/>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>

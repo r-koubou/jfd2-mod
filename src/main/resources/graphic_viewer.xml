@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<fileviewer 
+	factory="com.nullfish.app.jfd2.viewer.graphicviewer.GraphicViewerFactory"
+	class="com.nullfish.app.jfd2.viewer.graphicviewer.GraphicViewer"
+	constraints="none" unit="each_jfd" position="forward" follows="true">
+</fileviewer>

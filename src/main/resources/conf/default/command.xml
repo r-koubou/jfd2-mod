@@ -1,0 +1,347 @@
+<?xml version="1.0"?>
+
+<commands version="20101207">
+	<command name="cursor-up" class="com.nullfish.app.jfd2.command.embed.CursorMoveCommand" cache="true">
+		<param name="direction">
+			<int>0</int>
+		</param>
+	</command>
+	<command name="cursor-down" class="com.nullfish.app.jfd2.command.embed.CursorMoveCommand" cache="true">
+		<param name="direction">
+			<int>1</int>
+		</param>
+	</command>
+	<command name="cursor-right" class="com.nullfish.app.jfd2.command.embed.CursorMoveCommand" cache="true">
+		<param name="direction">
+			<int>2</int>
+		</param>
+	</command>
+	<command name="cursor-left" class="com.nullfish.app.jfd2.command.embed.CursorMoveCommand" cache="true">
+		<param name="direction">
+			<int>3</int>
+		</param>
+	</command>
+	<command name="cursor-top" class="com.nullfish.app.jfd2.command.embed.CursorMoveCommand" cache="true">
+		<param name="direction">
+			<int>4</int>
+		</param>
+	</command>
+	<command name="cursor-end" class="com.nullfish.app.jfd2.command.embed.CursorMoveCommand" cache="true">
+		<param name="direction">
+			<int>5</int>
+		</param>
+	</command>
+	<command name="cursor-next-page" class="com.nullfish.app.jfd2.command.embed.CursorMoveCommand" cache="true">
+		<param name="direction">
+			<int>6</int>
+		</param>
+	</command>
+	<command name="cursor-prev-page" class="com.nullfish.app.jfd2.command.embed.CursorMoveCommand" cache="true">
+		<param name="direction">
+			<int>7</int>
+		</param>
+	</command>
+	<command name="go-parent" class="com.nullfish.app.jfd2.command.embed.GoParentCommand" cache="true">
+	</command>
+	<command name="go-root" class="com.nullfish.app.jfd2.command.embed.GoRootCommand" cache="true">
+	</command>
+	<command name="open" class="com.nullfish.app.jfd2.command.embed.OpenCommand" cache="true">
+	</command>
+	<command name="view" class="com.nullfish.app.jfd2.command.embed.ViewCommand" cache="true">
+	</command>
+	<command name="mark" class="com.nullfish.app.jfd2.command.embed.MarkCommand" cache="true">
+	</command>
+	<command name="mark-all" class="com.nullfish.app.jfd2.command.embed.MarkAllFileCommand" cache="true">
+	</command>
+	<command name="mark-reverse" class="com.nullfish.app.jfd2.command.embed.MarkReverseCommand" cache="true">
+	</command>
+	<command name="column-1" class="com.nullfish.app.jfd2.command.embed.SetColumnCountCommand" cache="true">
+		<param name="count">
+			<int>1</int>
+		</param>
+	</command>
+	<command name="column-2" class="com.nullfish.app.jfd2.command.embed.SetColumnCountCommand" cache="true">
+		<param name="count">
+			<int>2</int>
+		</param>
+	</command>
+	<command name="column-3" class="com.nullfish.app.jfd2.command.embed.SetColumnCountCommand" cache="true">
+		<param name="count">
+			<int>3</int>
+		</param>
+	</command>
+	<command name="column-4" class="com.nullfish.app.jfd2.command.embed.SetColumnCountCommand" cache="true">
+		<param name="count">
+			<int>4</int>
+		</param>
+	</command>
+	<command name="column-5" class="com.nullfish.app.jfd2.command.embed.SetColumnCountCommand" cache="true">
+		<param name="count">
+			<int>5</int>
+		</param>
+	</command>
+	<command name="column-6" class="com.nullfish.app.jfd2.command.embed.SetColumnCountCommand" cache="true">
+		<param name="count">
+			<int>6</int>
+		</param>
+	</command>
+	<command name="column-7" class="com.nullfish.app.jfd2.command.embed.SetColumnCountCommand" cache="true">
+		<param name="count">
+			<int>7</int>
+		</param>
+	</command>
+	<command name="column-8" class="com.nullfish.app.jfd2.command.embed.SetColumnCountCommand" cache="true">
+		<param name="count">
+			<int>8</int>
+		</param>
+	</command>
+	<command name="column-9" class="com.nullfish.app.jfd2.command.embed.SetColumnCountCommand" cache="true">
+		<param name="count">
+			<int>9</int>
+		</param>
+	</command>
+	<command name="gc" class="com.nullfish.app.jfd2.command.embed.GCCommand" cache="true">
+	</command>
+	<command name="sort" class="com.nullfish.app.jfd2.command.embed.SortCommand" cache="true">
+	</command>
+	<command name="logical_disk" class="com.nullfish.app.jfd2.command.embed.LogicalDiskCommand" asynch="true" locks="true">
+	</command>
+	<command name="create_file" class="com.nullfish.app.jfd2.command.embed.CreateFileCommand" asynch="true" locks="true">
+	</command>
+	<command name="create_directory" class="com.nullfish.app.jfd2.command.embed.CreateDirectoryCommand" asynch="true" locks="true">
+	</command>
+	<command name="delete_file" class="com.nullfish.app.jfd2.command.embed.DeleteFileCommand" asynch="true">
+	</command>
+	<command name="delete_directory" class="com.nullfish.app.jfd2.command.embed.DeleteDirectoryCommand" asynch="true">
+	</command>
+	<command name="refresh" class="com.nullfish.app.jfd2.command.embed.RefreshCommand" asynch="true" locks="true">
+	</command>
+	<command name="rename" class="com.nullfish.app.jfd2.command.embed.RenameCommand" asynch="true" locks="true" show_stopped="false">
+	</command>
+	<command name="copy" class="com.nullfish.app.jfd2.command.embed.CopyCommand" asynch="true" primary="true">
+	</command>
+	<command name="copy_self" class="com.nullfish.app.jfd2.command.embed.CopyCommand" asynch="true" primary="true">
+		<param name="self_first">
+			<boolean>true</boolean>
+		</param>
+	</command>
+	<command name="move" class="com.nullfish.app.jfd2.command.embed.MoveCommand" asynch="true" primary="true">
+	</command>
+	<command name="move_self" class="com.nullfish.app.jfd2.command.embed.MoveCommand" asynch="true" primary="true">
+		<param name="self_first">
+			<boolean>true</boolean>
+		</param>
+	</command>
+	<command name="escape" class="com.nullfish.app.jfd2.command.embed.EscapeCommand">
+	</command>
+	<command name="exit" class="com.nullfish.app.jfd2.command.embed.ExitCommand">
+	</command>
+	<command name="exit_all" class="com.nullfish.app.jfd2.command.embed.ExitAllCommand">
+	</command>
+	<command name="paste_copy" class="com.nullfish.app.jfd2.command.embed.PasteCommand" asynch="true">
+	</command>
+	<command name="clipboard_copy" class="com.nullfish.app.jfd2.command.embed.ClipboardCopyCommand">
+		<param name="mode">
+			<text>copy</text>
+		</param>
+	</command>
+	<command name="clipboard_cut" class="com.nullfish.app.jfd2.command.embed.ClipboardCopyCommand">
+		<param name="mode">
+			<text>cut</text>
+		</param>
+	</command>
+	<command name="copy_current_dir" class="com.nullfish.app.jfd2.command.embed.ClipboardCopyCurrentDirectoryCommand">
+	</command>
+	<command name="shell" class="com.nullfish.app.jfd2.command.embed.ShellCommand" asynch="true">
+		<param name="mode">
+			<text>shell</text>
+		</param>
+	</command>
+	<command name="execute" class="com.nullfish.app.jfd2.command.embed.ShellCommand" asynch="true">
+		<param name="mode">
+			<text>execute</text>
+		</param>
+	</command>
+	<command name="remote_execute" class="com.nullfish.app.jfd2.command.embed.RemoteShellCommand" asynch="true">
+	</command>
+	<command name="edit" class="com.nullfish.app.jfd2.command.embed.EditCommand" asynch="true">
+	</command>
+	<command name="find" class="com.nullfish.app.jfd2.command.embed.FindCommand" asynch="true" locks="true" primary="true">
+	</command>
+	<command name="grep" class="com.nullfish.app.jfd2.command.embed.GrepCommand" asynch="true" locks="true" primary="true">
+	</command>
+	<command name="new_tab" class="com.nullfish.app.jfd2.command.embed.NewJFDCommand">
+		<param name="constraints">
+			<text>new_main_panel</text>
+		</param>
+	</command>
+	<command name="new_sub_tab" class="com.nullfish.app.jfd2.command.embed.NewJFDCommand">
+		<param name="constraints">
+			<text>new_sub_panel</text>
+		</param>
+	</command>
+	<command name="new_window" class="com.nullfish.app.jfd2.command.embed.NewJFDCommand">
+		<param name="constraints">
+			<text>new_window</text>
+		</param>
+	</command>
+	<command name="new_tab_dir" class="com.nullfish.app.jfd2.command.embed.NewJFDCommand">
+		<param name="constraints">
+			<text>new_main_panel</text>
+		</param>
+		<param name="opens_dir">
+			<boolean>true</boolean>
+		</param>
+	</command>
+	<command name="new_sub_tab_dir" class="com.nullfish.app.jfd2.command.embed.NewJFDCommand">
+		<param name="constraints">
+			<text>new_sub_panel</text>
+		</param>
+		<param name="opens_dir">
+			<boolean>true</boolean>
+		</param>
+	</command>
+	<command name="new_window_dir" class="com.nullfish.app.jfd2.command.embed.NewJFDCommand">
+		<param name="constraints">
+			<text>new_window</text>
+		</param>
+		<param name="opens_dir">
+			<boolean>true</boolean>
+		</param>
+	</command>
+	<command name="next_jfd" class="com.nullfish.app.jfd2.command.embed.NextJFDCommand">
+		<param name="delta">
+			<int>1</int>
+		</param>
+	</command>
+	<command name="prev_jfd" class="com.nullfish.app.jfd2.command.embed.NextJFDCommand">
+		<param name="delta">
+			<int>-1</int>
+		</param>
+	</command>
+	<command name="next_history" class="com.nullfish.app.jfd2.command.embed.DirHistoryCommand">
+		<param name="direction">
+			<text>next</text>
+		</param>
+	</command>
+	<command name="prev_history" class="com.nullfish.app.jfd2.command.embed.DirHistoryCommand">
+		<param name="direction">
+			<text>prev</text>
+		</param>
+	</command>
+	<command name="pack" class="com.nullfish.app.jfd2.command.embed.PackCommand" asynch="true" locks="true"/>
+	<command name="unpack" class="com.nullfish.app.jfd2.command.embed.UnpackCommand" asynch="true" locks="true"/>
+	<command name="swap_position" class="com.nullfish.app.jfd2.command.embed.ChangePositionCommand">
+	</command>
+	<command name="edit_groovy_old" class="com.nullfish.app.jfd2.command.groovy.GroovyEditCommand" cache="false" asynch="true" locks="true">
+	</command>
+	<command name="edit_groovy" class="com.nullfish.app.jfd2.command.groovy.GroovyConsoleCommand" cache="false" asynch="true" locks="true">
+	</command>
+	<command name="select_groovy" class="com.nullfish.app.jfd2.command.groovy.GroovySelectCommand" cache="false" asynch="true" locks="false">
+	</command>
+	<command name="initialize" class="com.nullfish.app.jfd2.command.embed.InitializeCommand" cache="false" asynch="true" locks="false">
+	</command>
+	<command name="shortcut" class="com.nullfish.app.jfd2.command.embed.QuickAccessCommand" cache="false">
+	</command>
+	<command name="register-shortcut" class="com.nullfish.app.jfd2.command.embed.RegisterQuickAccessCommand" asynch="true" cache="false">
+	</command>
+	<command name="attribute" class="com.nullfish.app.jfd2.command.embed.AttributeCommand" cache="false">
+	</command>
+	<command name="option" class="com.nullfish.app.jfd2.command.embed.OptionCommand" cache="false">
+	</command>
+	<command name="ext_command_option" class="com.nullfish.app.jfd2.command.embed.ExternalCommandOptionCommand" cache="false">
+	</command>
+	<command name="sort_name" class="com.nullfish.app.jfd2.command.embed.ChangeSortKeyCommand">
+		<param name="sort_key">
+			<text>name</text>
+		</param>
+		<param name="label">
+			<text>name</text>
+		</param>
+	</command>
+	<command name="sort_extension" class="com.nullfish.app.jfd2.command.embed.ChangeSortKeyCommand">
+		<param name="sort_key">
+			<text>extension</text>
+		</param>
+		<param name="label">
+			<text>extension</text>
+		</param>
+	</command>
+	<command name="sort_size" class="com.nullfish.app.jfd2.command.embed.ChangeSortKeyCommand">
+		<param name="sort_key">
+			<text>size</text>
+		</param>
+		<param name="label">
+			<text>size</text>
+		</param>
+	</command>
+	<command name="sort_date" class="com.nullfish.app.jfd2.command.embed.ChangeSortKeyCommand">
+		<param name="sort_key">
+			<text>date</text>
+		</param>
+		<param name="label">
+			<text>date</text>
+		</param>
+	</command>
+	<command name="sort_reverse" class="com.nullfish.app.jfd2.command.embed.SortReverseCommand">
+	</command>
+	<command name="extension_map" class="com.nullfish.app.jfd2.command.embed.ExtensionMapCommand">
+	</command>
+	<command name="incremental_search" class="com.nullfish.app.jfd2.command.embed.IncrementalSearchCommand2">
+	</command>
+	<command name="show_popup" class="com.nullfish.app.jfd2.command.embed.ShowPopupCommand">
+	</command>
+	<command name="go_plugin_dir" class="com.nullfish.app.jfd2.command.embed.GoToConfigDirCommand">
+		<param name="config_name">
+			<text>plugin_dir</text>
+		</param>
+	</command>
+	<command name="go_script_dir" class="com.nullfish.app.jfd2.command.embed.GoToConfigDirCommand">
+		<param name="config_name">
+			<text>script_dir</text>
+		</param>
+	</command>
+	<command name="go_lib_dir" class="com.nullfish.app.jfd2.command.embed.GoToConfigDirCommand">
+		<param name="config_name">
+			<text>lib_dir</text>
+		</param>
+	</command>
+	<command name="change_thumbnail_mode" class="com.nullfish.app.jfd2.command.embed.ChangeThumbnailVisibilityCommand">
+	</command>
+	<command name="this2target" class="com.nullfish.app.jfd2.command.embed.SameDirectoryCommand">
+		<param name="direction">
+			<text>this2opposit</text>
+		</param>
+	</command>
+	<command name="target2this" class="com.nullfish.app.jfd2.command.embed.SameDirectoryCommand">
+		<param name="direction">
+			<text>opposit2this</text>
+		</param>
+	</command>
+	<command name="change_dot_file_visible" class="com.nullfish.app.jfd2.command.embed.ChangeDotFileVisibilityCommand">
+	</command>
+	<command name="register_smart_directory" class="com.nullfish.app.jfd2.command.embed.RegisterSmartFileListCommand">
+	</command>
+	<command name="register_virtual_directory" class="com.nullfish.app.jfd2.command.embed.RegisterFileListCommand">
+	</command>
+	<command name="change_relative_mode" class="com.nullfish.app.jfd2.command.embed.ChangeRelativePathModeCommand">
+	</command>
+	<command name="incremental_search_next" class="com.nullfish.app.jfd2.command.embed.SameIncrementalSearchCommand">
+		<param name="direction">
+			<text>next</text>
+		</param>
+	</command>
+	<command name="incremental_search_prev" class="com.nullfish.app.jfd2.command.embed.SameIncrementalSearchCommand">
+		<param name="direction">
+			<text>prev</text>
+		</param>
+	</command>
+	<command name="change_auto_column_mode" class="com.nullfish.app.jfd2.command.embed.ChangeAutoAdjustsColumnCommand">
+	</command>
+	<command name="tree" class="com.nullfish.app.jfd2.command.embed.TreeCommand">
+	</command>
+	<command name="find_tag" class="com.nullfish.app.jfd2.command.embed.FindTagCommand" asynch="true" locks="true" primary="true">
+	</command>
+	<command name="clean_tag_db" class="com.nullfish.app.jfd2.command.embed.CleanTagDbCommand" asynch="true" locks="true" primary="true">
+	</command>
+</commands>

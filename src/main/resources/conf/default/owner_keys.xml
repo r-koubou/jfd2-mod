@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+
+<commandmaps version="20101226">
+	<commandmap name="change_split">
+		<key name="VK_UP" alt="true"/>
+	</commandmap>
+	<commandmap name="next_tab">
+		<key name="VK_0"/>
+	</commandmap>
+	<commandmap name="prev_tab">
+		<key name="VK_9"/>
+	</commandmap>
+	<commandmap name="focus_opponent">
+		<key name="VK_8"/>
+	</commandmap>
+	<commandmap name="next_frame">
+		<key name="VK_7"/>
+	</commandmap>
+	<commandmap name="focus_main">
+		<key name="VK_LEFT"/>
+	</commandmap>
+	<commandmap name="focus_sub">
+		<key name="VK_RIGHT"/>
+	</commandmap>
+</commandmaps>

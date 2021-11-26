@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table cellpadding="10">
+	<tr>
+		<td hfix="true">
+			<table>
+				<tr>
+					<td vfix="true" hfix="true">colorLabel</td>
+				</tr>
+				<tr>
+					<td fill="both" prefwidth="300" prefheight="200" vfix="true" hfix="true">tableScroll</td>
+				</tr>
+				<tr>
+					<td vfix="true" hfix="true" fill="horizontal">
+						<table>
+							<tr>
+								<td vfix="true" hfix="true">addColorButton</td><td vfix="true" hfix="true">removeColorButton</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td/>
+				</tr>
+			</table>
+		</td>
+		<td></td>
+	</tr>
+</table>

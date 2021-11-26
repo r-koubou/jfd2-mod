@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+	<tr>
+		<td vfix="true" fill="horizontal"></td>
+		<td vfix="true" hfix="true">title_left_pad</td>
+		<td vfix="true" hfix="true">title</td>
+		<td vfix="true" hfix="true">title_right_pad</td>
+		<td vfix="true" fill="horizontal"></td>
+	</tr>
+</table>

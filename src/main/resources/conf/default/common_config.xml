@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config version="0.7">
+  <param name="label_font">
+    <font fontname="Monospaced" bold="false" italic="false" size="12" />
+  </param>
+  <param name="read_only_color">
+    <color>#ffffff00</color>
+  </param>
+  <param name="sub_directory_color">
+    <color>#ff00ffff</color>
+  </param>
+  <param name="message_color">
+    <color>#ffffff00</color>
+  </param>
+  <param name="background_color">
+    <color>#ff000000</color>
+  </param>
+  <param name="grid_color">
+    <color>#ffffffff</color>
+  </param>
+  <param name="current_directory_color">
+    <color>#ffffffff</color>
+  </param>
+  <param name="parent_directory_color">
+    <color>#ffffffff</color>
+  </param>
+  <param name="default_label_color">
+    <color>#ffffffff</color>
+  </param>
+  <param name="link_color">
+    <color>#ff00ff00</color>
+  </param>
+  <param name="double_line">
+    <boolean>true</boolean>
+  </param>
+  <param name="grep_encode_all">
+    <list>
+      <text>JISAutoDetect</text>
+      <text>Shift_JIS</text>
+      <text>EUC-JP</text>
+      <text>UTF-8</text>
+    </list>
+  </param>
+  <param name="grep_encode">
+    <text>JISAutoDetect</text>
+  </param>
+  <param name="pack_format">
+    <text>zip</text>
+  </param>
+  <param name="row-inset">
+    <int>0</int>
+  </param>
+  <param name="zip_encoding">
+    <text>UTF-8</text>
+  </param>
+</config>
+

@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+
+<commands version="20101226">
+	<command name="change_split" class="com.nullfish.app.jfd2.command.owner.ChangeSplitCommand">
+	</command>
+	<command name="next_tab" class="com.nullfish.app.jfd2.command.owner.ChangeTabCommand">
+		<param name="delta">
+			<int>1</int>
+		</param>
+	</command>
+	<command name="prev_tab" class="com.nullfish.app.jfd2.command.owner.ChangeTabCommand">
+		<param name="delta">
+			<int>-1</int>
+		</param>
+	</command>
+	<command name="next_frame" class="com.nullfish.app.jfd2.command.owner.NextFrameCommand">
+		<param name="delta">
+			<int>1</int>
+		</param>
+	</command>
+	<command name="focus_opponent" class="com.nullfish.app.jfd2.command.owner.FocusOpponentCommand">
+	</command>
+	<command name="focus_main" class="com.nullfish.app.jfd2.command.owner.FocusCommand">
+		<param name="position">
+			<text>main</text>
+		</param>
+	</command>
+	<command name="focus_sub" class="com.nullfish.app.jfd2.command.owner.FocusCommand">
+		<param name="position">
+			<text>sub</text>
+		</param>
+	</command>
+</commands>

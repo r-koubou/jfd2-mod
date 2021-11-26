@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+	<tr>
+		<td colspan="3" hfix="false" fill="horizontal">
+			<table>
+				<tr>
+					<td hfix="true" cellpadding="3">search_label</td>
+					<td hfix="false" fill="horizontal" cellpadding="3">combobox</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td colspan="3" hfix="fales" fill="horizontal">
+			<table>
+				<tr>
+					<td hfix="false" fill="horizontal">checkbox</td>
+					<td hfix="false" fill="horizontal">regex_checkbox</td>
+				</tr>
+				<tr>
+					<td hfix="false" fill="horizontal">migemo_checkbox</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td hfix="true" cellpadding="3">prev_button</td>
+		<td hfix="true" cellpadding="3">next_button</td>
+		<td hfix="true" cellpadding="3">close_button</td>
+	</tr>
+</table>

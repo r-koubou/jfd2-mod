@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<ext_commands>
+	<extcommandset>
+		<extcommand title="a" mode="shell">
+			<shellcommand useshell="true" workdir=""/>
+			<script/>
+			<scriptfile/>
+		</extcommand>
+		<extcommand title="b" mode="script">
+			<shellcommand useshell="false" workdir=""/>
+			<script/>
+			<scriptfile/>
+		</extcommand>
+		<extcommand title="c" mode="script-file">
+			<shellcommand useshell="false" workdir=""/>
+			<script/>
+			<scriptfile/>
+		</extcommand>
+		<extcommand title="d" mode="shell">
+			<shellcommand useshell="false" workdir=""/>
+			<script/>
+			<scriptfile/>
+		</extcommand>
+		<extcommand title="e" mode="shell">
+			<shellcommand useshell="false" workdir=""/>
+			<script/>
+			<scriptfile/>
+		</extcommand>
+		<extcommand title="f" mode="shell">
+			<shellcommand useshell="false" workdir=""/>
+			<script/>
+			<scriptfile/>
+		</extcommand>
+		<extcommand title="g" mode="shell">
+			<shellcommand useshell="false" workdir=""/>
+			<script/>
+			<scriptfile/>
+		</extcommand>
+		<extcommand title="h" mode="shell">
+			<shellcommand useshell="false" workdir=""/>
+			<script/>
+			<scriptfile/>
+		</extcommand>
+		<extcommand title="i" mode="shell">
+			<shellcommand useshell="false" workdir=""/>
+			<script/>
+			<scriptfile/>
+		</extcommand>
+		<extcommand title="j" mode="shell">
+			<shellcommand useshell="false" workdir=""/>
+			<script/>
+			<scriptfile/>
+		</extcommand>
+		<extcommand title="k" mode="shell">
+			<shellcommand useshell="false" workdir=""/>
+			<script/>
+			<scriptfile/>
+		</extcommand>
+		<extcommand title="l" mode="shell">
+			<shellcommand useshell="false" workdir=""/>
+			<script/>
+			<scriptfile/>
+		</extcommand>
+		<extcommand title="m" mode="shell">
+			<shellcommand useshell="false" workdir=""/>
+			<script/>
+			<scriptfile/>
+		</extcommand>
+		<extcommand title="n" mode="shell">
+			<shellcommand useshell="false" workdir=""/>
+			<script/>
+			<scriptfile/>
+		</extcommand>
+		<extcommand title="o" mode="shell">
+			<shellcommand useshell="false" workdir=""/>
+			<script/>
+			<scriptfile/>
+		</extcommand>
+		<extcommand title="p" mode="shell">
+			<shellcommand useshell="false" workdir=""/>
+			<script/>
+			<scriptfile/>
+		</extcommand>
+		<extcommand title="q" mode="shell">
+			<shellcommand useshell="false" workdir=""/>
+			<script/>
+			<scriptfile/>
+		</extcommand>
+		<extcommand title="r" mode="shell">
+			<shellcommand useshell="false" workdir=""/>
+			<script/>
+			<scriptfile/>
+		</extcommand>
+		<extcommand title="s" mode="shell">
+			<shellcommand useshell="false" workdir=""/>
+			<script/>
+			<scriptfile/>
+		</extcommand>
+		<extcommand title="t" mode="shell">
+			<shellcommand useshell="false" workdir=""/>
+			<script/>
+			<scriptfile/>
+		</extcommand>
+		<extcommand title="u" mode="shell">
+			<shellcommand useshell="false" workdir=""/>
+			<script/>
+			<scriptfile/>
+		</extcommand>
+		<extcommand title="v" mode="shell">
+			<shellcommand useshell="false" workdir=""/>
+			<script/>
+			<scriptfile/>
+		</extcommand>
+		<extcommand title="w" mode="shell">
+			<shellcommand useshell="false" workdir=""/>
+			<script/>
+			<scriptfile/>
+		</extcommand>
+		<extcommand title="x" mode="shell">
+			<shellcommand useshell="false" workdir=""/>
+			<script/>
+			<scriptfile/>
+		</extcommand>
+		<extcommand title="y" mode="shell">
+			<shellcommand useshell="false" workdir=""/>
+			<script/>
+			<scriptfile/>
+		</extcommand>
+		<extcommand title="z" mode="shell">
+			<shellcommand useshell="false" workdir=""/>
+			<script/>
+			<scriptfile/>
+		</extcommand>
+	</extcommandset>
+	<extcommandset>
+		<extcommand title="A" mode="shell">
+			<shellcommand useshell="false" workdir=""/>
+			<script/>
+			<scriptfile/>
+		</extcommand>
+		<extcommand title="B" mode="shell">
+			<shellcommand useshell="false" workdir=""/>
+			<script/>
+			<scriptfile/>
+		</extcommand>
+		<extcommand title="C" mode="shell">
+			<shellcommand useshell="false" workdir=""/>
+			<script/>
+			<scriptfile/>
+		</extcommand>
+		<extcommand title="D" mode="shell">
+			<shellcommand useshell="false" workdir=""/>
+			<script/>
+			<scriptfile/>
+		</extcommand>
+		<extcommand title="E" mode="shell">
+			<shellcommand useshell="false" workdir=""/>
+			<script/>
+			<scriptfile/>
+		</extcommand>
+		<extcommand title="F" mode="shell">
+			<shellcommand useshell="false" workdir=""/>
+			<script/>
+			<scriptfile/>
+		</extcommand>
+		<extcommand title="G" mode="shell">
+			<shellcommand useshell="false" workdir=""/>
+			<script/>
+			<scriptfile/>
+		</extcommand>
+		<extcommand title="H" mode="shell">
+			<shellcommand useshell="false" workdir=""/>
+			<script/>
+			<scriptfile/>
+		</extcommand>
+		<extcommand title="I" mode="shell">
+			<shellcommand useshell="false" workdir=""/>
+			<script/>
+			<scriptfile/>
+		</extcommand>
+		<extcommand title="J" mode="shell">
+			<shellcommand useshell="false" workdir=""/>
+			<script/>
+			<scriptfile/>
+		</extcommand>
+		<extcommand title="K" mode="shell">
+			<shellcommand useshell="false" workdir=""/>
+			<script/>
+			<scriptfile/>
+		</extcommand>
+		<extcommand title="L" mode="shell">
+			<shellcommand useshell="false" workdir=""/>
+			<script/>
+			<scriptfile/>
+		</extcommand>
+		<extcommand title="M" mode="shell">
+			<shellcommand useshell="false" workdir=""/>
+			<script/>
+			<scriptfile/>
+		</extcommand>
+		<extcommand title="N" mode="shell">
+			<shellcommand useshell="false" workdir=""/>
+			<script/>
+			<scriptfile/>
+		</extcommand>
+		<extcommand title="O" mode="shell">
+			<shellcommand useshell="false" workdir=""/>
+			<script/>
+			<scriptfile/>
+		</extcommand>
+		<extcommand title="P" mode="shell">
+			<shellcommand useshell="false" workdir=""/>
+			<script/>
+			<scriptfile/>
+		</extcommand>
+		<extcommand title="Q" mode="shell">
+			<shellcommand useshell="false" workdir=""/>
+			<script/>
+			<scriptfile/>
+		</extcommand>
+		<extcommand title="R" mode="shell">
+			<shellcommand useshell="false" workdir=""/>
+			<script/>
+			<scriptfile/>
+		</extcommand>
+		<extcommand title="S" mode="shell">
+			<shellcommand useshell="false" workdir=""/>
+			<script/>
+			<scriptfile/>
+		</extcommand>
+		<extcommand title="T" mode="shell">
+			<shellcommand useshell="false" workdir=""/>
+			<script/>
+			<scriptfile/>
+		</extcommand>
+		<extcommand title="U" mode="shell">
+			<shellcommand useshell="false" workdir=""/>
+			<script/>
+			<scriptfile/>
+		</extcommand>
+		<extcommand title="V" mode="shell">
+			<shellcommand useshell="false" workdir=""/>
+			<script/>
+			<scriptfile/>
+		</extcommand>
+		<extcommand title="W" mode="shell">
+			<shellcommand useshell="false" workdir=""/>
+			<script/>
+			<scriptfile/>
+		</extcommand>
+		<extcommand title="X" mode="shell">
+			<shellcommand useshell="false" workdir=""/>
+			<script/>
+			<scriptfile/>
+		</extcommand>
+		<extcommand title="Y" mode="shell">
+			<shellcommand useshell="false" workdir=""/>
+			<script/>
+			<scriptfile/>
+		</extcommand>
+		<extcommand title="Z" mode="shell">
+			<shellcommand useshell="false" workdir=""/>
+			<script/>
+			<scriptfile/>
+		</extcommand>
+	</extcommandset>
+</ext_commands>

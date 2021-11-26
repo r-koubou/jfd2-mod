@@ -1,0 +1,247 @@
+<?xml version=	"1.0"?>
+
+<commandmaps version="20091022">
+	<commandmap name="cursor-up">
+		<key name="VK_UP"/>
+	</commandmap>
+	<commandmap name="cursor-down">
+		<key name="VK_DOWN"/>
+	</commandmap>
+	<commandmap name="cursor-right">
+		<key name="VK_RIGHT"/>
+	</commandmap>
+	<commandmap name="cursor-left">
+		<key name="VK_LEFT"/>
+	</commandmap>
+	<commandmap name="cursor-next-page">
+		<key name="VK_PAGE_DOWN"/>
+		<key name="VK_DOWN" shift="true"/>
+	</commandmap>
+	<commandmap name="cursor-prev-page">
+		<key name="VK_PAGE_UP"/>
+		<key name="VK_UP" shift="true"/>
+	</commandmap>
+	<commandmap name="go-parent">
+		<key name="VK_BACK_SPACE"/>
+	</commandmap>
+	<commandmap name="go-root">
+		<key name="VK_BACK_SLASH"/>
+	</commandmap>
+	<commandmap name="open">
+		<key name="VK_ENTER"/>
+	</commandmap>
+	<commandmap name="view">
+		<key name="VK_V"/>
+	</commandmap>
+	<commandmap name="mark">
+		<key name="VK_SPACE"/>
+	</commandmap>
+	<commandmap name="mark-all">
+		<key name="VK_HOME"/>
+	</commandmap>
+	<commandmap name="mark-reverse">
+		<key name="VK_END"/>
+	</commandmap>
+	<commandmap name="column-1">
+		<key name="VK_1"/>
+	</commandmap>
+	<commandmap name="column-2">
+		<key name="VK_2"/>
+	</commandmap>
+	<commandmap name="column-3">
+		<key name="VK_3"/>
+	</commandmap>
+	<commandmap name="column-4">
+		<key name="VK_4"/>
+	</commandmap>
+	<commandmap name="column-5">
+		<key name="VK_5"/>
+	</commandmap>
+	<commandmap name="column-6">
+		<key name="VK_6"/>
+	</commandmap>
+	<commandmap name="gc">
+		<key name="VK_G" shift="true"/>
+	</commandmap>
+	<commandmap name="sort">
+		<key name="VK_S"/>
+	</commandmap>
+	<commandmap name="logical_disk">
+		<key name="VK_L"/>
+	</commandmap>
+	<commandmap name="create_file">
+		<key name="VK_N"/>
+	</commandmap>
+	<commandmap name="create_directory">
+		<key name="VK_K"/>
+	</commandmap>
+	<commandmap name="delete_file">
+		<key name="VK_D"/>
+	</commandmap>
+	<commandmap name="delete_directory">
+		<key name="VK_D" shift="true"/>
+	</commandmap>
+	<commandmap name="refresh">
+		<key name="VK_R" shift="true"/>
+	</commandmap>
+	<commandmap name="rename">
+		<key name="VK_R"/>
+	</commandmap>
+	<commandmap name="copy">
+		<key name="VK_C"/>
+	</commandmap>
+	<commandmap name="copy_self">
+		<key name="VK_C" shift="true"/>
+	</commandmap>
+	<commandmap name="move">
+		<key name="VK_M"/>
+	</commandmap>
+	<commandmap name="move_self">
+		<key name="VK_M" shift="true"/>
+	</commandmap>
+	<commandmap name="escape">
+		<key name="VK_ESCAPE"/>
+	</commandmap>
+	<commandmap name="paste_copy">
+		<key name="VK_V" ctrl="true"/>
+	</commandmap>
+	<commandmap name="clipboard_copy">
+		<key name="VK_C" ctrl="true"/>
+	</commandmap>
+	<commandmap name="clipboard_cut">
+		<key name="VK_X" ctrl="true"/>
+	</commandmap>
+	<commandmap name="copy_current_dir">
+		<key name="VK_L" ctrl="true"/>
+		<key name="VK_C" ctrl="true" shift="true"/>
+	</commandmap>
+	<commandmap name="shell">
+		<key name="VK_H"/>
+	</commandmap>
+	<commandmap name="execute">
+		<key name="VK_X"/>
+	</commandmap>
+	<commandmap name="remote_execute">
+		<key name="VK_X" shift="true"/>
+	</commandmap>
+	<commandmap name="edit">
+		<key name="VK_ENTER" shift="true"/>
+		<key name="VK_E"/>
+	</commandmap>
+	<commandmap name="select_groovy">
+		<key name="VK_O"/>
+	</commandmap>
+	<commandmap name="edit_groovy">
+		<key name="VK_O" shift="true"/>
+	</commandmap>
+	<commandmap name="find">
+		<key name="VK_F"/>
+	</commandmap>
+	<commandmap name="find_tag">
+		<key name="VK_F" shift="true"/>
+	</commandmap>
+	<commandmap name="grep">
+		<key name="VK_G"/>
+	</commandmap>
+	<commandmap name="pack">
+		<key name="VK_P"/>
+	</commandmap>
+	<commandmap name="unpack">
+		<key name="VK_U"/>
+	</commandmap>
+	<commandmap name="new_tab">
+		<key name="VK_N" ctrl="true"/>
+	</commandmap>
+	<commandmap name="new_sub_tab">
+		<key name="VK_M" ctrl="true"/>
+	</commandmap>
+	<commandmap name="new_window">
+		<key name="VK_N" ctrl="true" shift="true"/>
+	</commandmap>
+	<commandmap name="next_history">
+		<key name="VK_RIGHT" alt="true"/>
+	</commandmap>
+	<commandmap name="prev_history">
+		<key name="VK_LEFT" alt="true"/>
+	</commandmap>
+	<commandmap name="swap_position">
+		<key name="VK_DOWN" alt="true"/>
+	</commandmap>
+	<commandmap name="exit">
+		<key name="VK_W" ctrl="true"/>
+	</commandmap>
+	<commandmap name="initialize">
+		<key name="VK_R" shift="true" ctrl="true"/>
+	</commandmap>
+	<commandmap name="shortcut">
+		<key name="VK_Q"/>
+	</commandmap>
+	<commandmap name="register-shortcut">
+		<key name="VK_Q" shift="true"/>
+	</commandmap>
+	<commandmap name="attribute">
+		<key name="VK_A"/>
+	</commandmap>
+	<commandmap name="sort_name">
+		<key name="VK_1" ctrl="true"/>
+	</commandmap>
+	<commandmap name="sort_extension">
+		<key name="VK_2" ctrl="true"/>
+	</commandmap>
+	<commandmap name="sort_size">
+		<key name="VK_3" ctrl="true"/>
+	</commandmap>
+	<commandmap name="sort_date">
+		<key name="VK_4" ctrl="true"/>
+	</commandmap>
+	<commandmap name="sort_reverse">
+		<key name="VK_5" ctrl="true"/>
+	</commandmap>
+	<commandmap name="extension_map">
+		<key name="VK_Z"/>
+	</commandmap>
+	<commandmap name="incremental_search">
+		<key name="VK_AT" onrelease="true"/>
+		<key name="VK_OPEN_BRACKET" onrelease="true"/>
+	</commandmap>
+	<commandmap name="show_popup">
+		<key name="VK_DOWN" ctrl="true"/>
+		<key name="VK_CONTEXT_MENU"/>
+	</commandmap>
+	<commandmap name="change_thumbnail_mode">
+		<key name="VK_PERIOD"/>
+	</commandmap>
+	<commandmap name="this2target">
+		<key name="VK_Y"/>
+	</commandmap>
+	<commandmap name="target2this">
+		<key name="VK_Y" shift="true"/>
+	</commandmap>
+	<commandmap name="change_dot_file_visible">
+		<key name="VK_PERIOD" shift="true"/>
+	</commandmap>
+	<commandmap name="register_smart_directory">
+		<key name="VK_S" shift="true"/>
+	</commandmap>
+	<commandmap name="register_virtual_directory">
+		<key name="VK_V" shift="true"/>
+	</commandmap>
+	<commandmap name="change_relative_mode">
+		<key name="VK_BACK_SLASH" shift="true"/>
+	</commandmap>
+	<commandmap name="incremental_search_next">
+		<key name="VK_DOWN" ctrl="true"/>
+	</commandmap>
+	<commandmap name="incremental_search_prev">
+		<key name="VK_UP" ctrl="true"/>
+	</commandmap>
+	<commandmap name="incremental_search_prev">
+		<key name="VK_UP" ctrl="true"/>
+	</commandmap>
+	<commandmap name="change_auto_column_mode">
+		<key name="VK_6"/>
+	</commandmap>
+	<commandmap name="tree">
+		<key name="VK_T"/>
+	</commandmap>
+</commandmaps>

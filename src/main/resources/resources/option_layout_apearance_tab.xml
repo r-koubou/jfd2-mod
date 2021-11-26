@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table cellpadding="10">
+	<tr>
+		<td>
+			<table>
+				<tr>
+					<td vfix="true">color_label</td>
+				</tr>
+				<tr>
+					<td vfix="true">color_file</td>
+				</tr>
+				<tr>
+					<td vfix="true">color_readonly</td>
+				</tr>
+				<tr>
+					<td vfix="true">color_dir</td>
+				</tr>
+				<tr>
+					<td vfix="true">color_message</td>
+				</tr>
+				<tr>
+					<td vfix="true">color_bg</td>
+				</tr>
+				<tr>
+					<td vfix="true">color_grid</td>
+				</tr>
+				<tr>
+					<td vfix="true">color_current</td>
+				</tr>
+				<tr>
+					<td vfix="true">color_parent</td>
+				</tr>
+				<tr>
+					<td vfix="true">color_link</td>
+				</tr>
+				<tr>
+					<td vfix="true">color_list</td>
+				</tr>
+				<tr>
+					<td vfix="true">color_inactive</td>
+				</tr>
+				<tr>
+					<td vfix="true">color_tag</td>
+				</tr>
+				<tr>
+					<td vfix="true">color_text_viewer</td>
+				</tr>
+				<tr>
+					<td/>
+				</tr>
+			</table>
+		</td>
+		<td>
+			<table>
+				<tr>
+					<td vfix="true" hfix="true">font_label</td><td vfix="true" border="lowered">font_sample</td><td vfix="true" hfix="true">font_button</td>
+				</tr>
+				<tr>
+					<td vfix="true" hfix="true">dialog_font_label</td><td vfix="true" border="lowered">dialog_font_sample</td><td vfix="true" hfix="true">dialog_font_button</td>
+				</tr>
+				<tr>
+					<td cellpadding="5" vfix="true">bg_image_label</td>
+				</tr>
+				<tr>
+					<td colspan="2" vfix="true">double_line_grid</td>
+				</tr>
+				<tr>
+					<td colspan="2" vfix="true">hides_cursor</td>
+				</tr>
+				<tr>
+					<td colspan="2" vfix="true">changes_color</td>
+				</tr>
+				<tr>
+					<td colspan="2" vfix="true">use_mac_metal</td>
+				</tr>
+				<tr>
+					<td vfix="true">line_inset_label</td><td vfix="true">line_inset_input</td>
+				</tr>
+				<tr>
+					<td vfix="true">look_and_feel_label</td><td colspan="2" vfix="true" fill="horizontal">look_and_feel_combo</td>
+				</tr>
+				<tr>
+					<td vfix="true">min_column_width_label</td><td vfix="true">min_column_width_spinner</td>
+				</tr>
+				<tr>
+					<td/>
+				</tr>
+				<tr>
+					<td vfix="true" colspan="3">
+						<table border="line" cellpadding="5">
+							<tr><td colspan="2">bg_image</td></tr>
+							<tr><td hfix="true">bg_image_align_label</td><td>bg_image_align</td></tr>
+							<tr><td hfix="true">bg_image_transparency_label</td><td>bg_image_transparency</td></tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td/>
+	</tr>
+</table>
