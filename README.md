@@ -1,3 +1,3 @@
-# jfd2
+# jfd2-mod
 
-This repository is a mirror of https://code.google.com/archive/p/jfd2/
+本家 jFD2 を最新のmacOS環境でも動作させるために個人的なカスタム、修正をしたもの。
