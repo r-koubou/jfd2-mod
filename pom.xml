@@ -4,7 +4,7 @@
   <groupId>nullfish</groupId>
   <artifactId>jfd2</artifactId>
   <packaging>jar</packaging>
-  <version>1.01-mod1</version>
+  <version>1.01-mod2</version>
   <name>jfd2</name>
   <url>http://maven.apache.org</url>
 
@@ -78,8 +78,8 @@
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
         <configuration>
-          <source>1.6</source>
-          <target>1.6</target>
+          <source>1.8</source>
+          <target>1.8</target>
           <encoding>UTF-8</encoding>
           <charset>UTF-8</charset>
           <docencoding>UTF-8</docencoding>
