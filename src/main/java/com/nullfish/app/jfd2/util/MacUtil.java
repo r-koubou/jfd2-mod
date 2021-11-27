@@ -1,28 +1,24 @@
 package com.nullfish.app.jfd2.util;
 
-// deprecated
-/*
-import com.apple.eawt.Application;
-import com.apple.eawt.ApplicationAdapter;
-import com.apple.eawt.ApplicationEvent;
+import java.awt.Desktop;
+import java.awt.desktop.QuitEvent;
+import java.awt.desktop.QuitHandler;
+import java.awt.desktop.QuitResponse;
 import com.nullfish.app.jfd2.ui.container2.NumberedJFD2;
-*/
 
-/**
- * @deprecated macOS 10.15 Catalinaから Apple Java VM のインストールができないため com.apple.* パッケージのAPIは使用できないため、コードをカットしています。
- */
 public class MacUtil {
 	public static void initShutDown() {
-// deprecated
-/*
-		// MacのCommand+Qを無効にする
-        Application app = Application.getApplication();
-        app.addApplicationListener(new ApplicationAdapter() {
-            public void handleQuit(ApplicationEvent e) {
-                e.setHandled(false);
+        if(!Desktop.isDesktopSupported​()){
+            return;
+        }
+
+        Desktop desktop = Desktop.getDesktop();
+        desktop.disableSuddenTermination​();
+        desktop.setQuitHandler​(new QuitHandler() {
+            public void handleQuitRequestWith​(QuitEvent e, QuitResponse response) {
+                response.cancelQuit​();
                 NumberedJFD2.getActiveJFD().getCommandManager().execute("exit_all");
             }
         });
-*/
 	}
 }
