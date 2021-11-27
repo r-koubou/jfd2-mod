@@ -34,7 +34,7 @@ import com.nullfish.lib.vfs.exception.VFSSystemException;
 
 /**
  * @author shunji
- * 
+ *
  */
 public class Launcher {
 	/**
@@ -48,21 +48,22 @@ public class Launcher {
 	public static final String ARG_DIR = "-dir";
 
 	public static void main(final String[] args) {
-		Runnable runnable = new Runnable() {
+        // Mac向け設定
+        // awtの初期化前にシステムプロパティをセットしないと反映できないためmain直後に移動
+        System.setProperty("apple.laf.useScreenMenuBar", "true");
+        System.setProperty("apple.awt.application.name", "jFD2");
+        System.setProperty("com.apple.mrj.application.apple.menu.about.name", "jFD2");
+        System.setProperty("apple.awt.showGrowBox", "true");
+        System.setProperty("apple.awt.application.appearance", "system");
+        // System.setProperty("apple.awt.brushMetalLook", "true");
+
+        // System.setProperty( "sun.java2d.translaccel", "true");
+        // System.setProperty( "sun.java2d.ddscale", "true");
+
+    		Runnable runnable = new Runnable() {
 			public void run() {
 				// HtmlTablePanel.setDebug(true);
 				try {
-					// Mac向け設定
-					System.setProperty("apple.laf.useScreenMenuBar", "true");
-					System.setProperty(
-							"com.apple.mrj.application.apple.menu.about.name",
-							"jFD2");
-					System.setProperty("apple.awt.showGrowBox", "true");
-					// System.setProperty("apple.awt.brushMetalLook", "true");
-
-					// System.setProperty( "sun.java2d.translaccel", "true");
-					// System.setProperty( "sun.java2d.ddscale", "true");
-
 					// static部分（アカウント情報ダイアログ）初期化
 					Class clazz = NumberedJFD2.class;
 
@@ -85,7 +86,7 @@ public class Launcher {
 					Configuration commonConfig = Configuration
 							.getInstance(configDir
 									.getChild(JFD.COMMON_PARAM_FILE));
-					
+
 					String libDirStr = (String) commonConfig.getParam("lib_dir", configDir.getRelativeFile("../.jfd2_user/lib").getAbsolutePath());
 					File libDir =  new File(libDirStr);
 					if (!libDir.exists()) {
